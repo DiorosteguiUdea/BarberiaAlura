@@ -1,0 +1,61 @@
+body{
+    background: #CCCCCC;
+}
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.div-principal{
+    background-color: aquamarine;
+}
+
+p{
+    text-align: center;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+em strong{
+    color:red;
+}
+
+.diferenciales{
+    background-color: azure;
+    background-image: url("imagenes/bannerBarberia.jpeg");
+}
+
+.titulo-centralizado{
+    text-align: center;
+    /* color: cyan; */
+    /* text-shadow: 10px solid black; */
+}
+
+ul{
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.item{
+    background-color: black;
+    /* text-decoration: none; */
+    font-style: italic;
+    color: white;
+    border: 1px solid cyan;
+    border-radius: 7px;
+    padding: 10px 30px;
+    margin: 10px 20px;
+}
+
+.imageDiferenciales{
+    width: 50%;
+    border: 5px solid white;
+}

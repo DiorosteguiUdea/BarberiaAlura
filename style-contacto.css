@@ -1,0 +1,146 @@
+header{
+    background-color: lightgray;
+    padding: 20px 0;;
+}
+
+.caja{
+    width: 60%;
+    position: relative;
+    margin:  0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: 0;
+}
+
+nav li{
+    display: inline;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 0 0 0 3px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+
+.footer{
+    text-align: center;
+    background-image: url("imagenes/bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: aliceblue;
+    font-size: 11px;
+    margin: 20px;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40PX 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+    color: #c78c19;
+}
+
+/* p{
+    color: red;
+} */
+
+legend, legend.test{
+    color: #c78c19 ; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* p.test{
+    color: aqua;
+} */
+
+/* #test{
+    color: #c78c19;
+} */
+
+select.select{
+    position: absolute;
+padding-right: 0;
+}
+
+.enviar{
+    width: 55%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    /* color: #c78c19; */
+    transform: scale(1.2) rotate(1800deg);
+}
+
+.enviar:active{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 40px;
+    text-align: center;
+}
+
+thead{
+    background: gray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/* tfoot{
+    margin: 10px 0 auto;
+} */
